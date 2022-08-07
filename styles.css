@@ -66,7 +66,6 @@ body {
 #about,
 .quotes_card {
     height: calc(100vh - 60px);
-    /* height: 100vh; */
     width: 100vw;
 }
 
@@ -88,7 +87,7 @@ main {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .hero form h1 {
@@ -194,7 +193,7 @@ button:hover {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     left: 0;
     top: 0;
     width: 100%;
