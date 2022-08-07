@@ -168,8 +168,8 @@ button:hover {
 }
 
 .hero a {
-    width: 227px;
-    left: calc(50vw - 113.5px) !important;
+    width: 215px !important;
+    left: calc(50vw - 107.5px) !important;
 }
 
 .q1 p {
