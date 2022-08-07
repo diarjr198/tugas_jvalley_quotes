@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="brand">Diar J R</span>
+
+        <span class="menu">
+            <a href="http://www.bukatokopediar.tech/about.html" target="blank">About</a>
+            <a href="#quotesCard">Quotes</a>
+        </span>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <form id="form-quotes">
+                <h1>Tambah Quotes</h1>
+                <div class="form-group">
+                    <label for="nama">Nama</label><br />
+                    <input type="text" name="nama" id="nama" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="quotes">Quotes</label><br />
+                    <textarea name="quotes" id="quotes" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="add_quotes" class="btn btn-primarytype=" submit">Send</button>
+                </div>
+            </form>
+
+            <a href="#q1">↓ GO TO LIST QUOTES</a>
+
+            <img class="image-fit"
+                src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="" />
+
+            <div class="black"></div>
+        </div>
+
+        <section id="quotesCard"></section>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Add Quotes Success</p>
+                <a id="quotes-modal" href="#q1">See Your Quotes</a>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <span>Copyright © by Diar J R 2022</span>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+</body>
+
+</html>
