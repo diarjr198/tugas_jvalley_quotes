@@ -79,7 +79,7 @@ $(document).ready(function () {
         if (nameQuote !== "" && textQuote !== "") {
             quotes.push({
                 name: nameQuote,
-                quote: textQuote,
+                quote: `"${textQuote}"`,
             });
             console.log(quotes);
             $(".quotes_card").remove();
