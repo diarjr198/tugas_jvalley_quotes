@@ -113,7 +113,7 @@ $(document).ready(function () {
 
                     <a ${
                         i === quotes.length - 1
-                            ? `style="width: 216px; left: calc(50vw - 108px) !important;"`
+                            ? `style="width: 227px; left: calc(50vw - 113.5px) !important;"`
                             : ""
                     } href="#q${i !== quotes.length - 1 ? i + 2 : 1}">${
                     i !== quotes.length - 1 ? "↓ NEXT" : "↑ GO TO FIRST"
